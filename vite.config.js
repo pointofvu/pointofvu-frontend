@@ -10,5 +10,6 @@ export default defineConfig({
     host: '0.0.0.0',
     // Use the environment variable PORT if it is defined; otherwise, fall back to 5173 (local development)
     port: Number(process.env.PORT) || 5173,
+    allowedHosts: ['pointofvu-frontend.onrender.com'],
   },
 })
